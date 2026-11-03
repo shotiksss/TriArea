@@ -50,7 +50,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 204);
             label1.ForeColor = SystemColors.MenuHighlight;
-            label1.Location = new Point(313, 83);
+            label1.Location = new Point(259, 83);
             label1.Name = "label1";
             label1.Size = new Size(25, 25);
             label1.TabIndex = 0;
@@ -64,7 +64,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 204);
             label2.ForeColor = SystemColors.MenuHighlight;
-            label2.Location = new Point(313, 108);
+            label2.Location = new Point(259, 108);
             label2.Name = "label2";
             label2.Size = new Size(25, 25);
             label2.TabIndex = 1;
@@ -76,7 +76,7 @@
             label3.BackColor = SystemColors.MenuHighlight;
             label3.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 204);
             label3.ForeColor = SystemColors.MenuHighlight;
-            label3.Location = new Point(313, 106);
+            label3.Location = new Point(259, 106);
             label3.Name = "label3";
             label3.Size = new Size(25, 2);
             label3.TabIndex = 2;
@@ -88,7 +88,7 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 204);
             label4.ForeColor = SystemColors.MenuHighlight;
-            label4.Location = new Point(262, 93);
+            label4.Location = new Point(208, 93);
             label4.Name = "label4";
             label4.Size = new Size(115, 25);
             label4.TabIndex = 3;
@@ -101,7 +101,7 @@
             pictureBox1.BackgroundImageLayout = ImageLayout.None;
             pictureBox1.BorderStyle = BorderStyle.Fixed3D;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(383, 30);
+            pictureBox1.Location = new Point(329, 30);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(157, 149);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -164,7 +164,7 @@
             button1.Cursor = Cursors.Hand;
             button1.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point, 204);
             button1.ForeColor = Color.Navy;
-            button1.Location = new Point(58, 231);
+            button1.Location = new Point(58, 183);
             button1.Name = "button1";
             button1.Size = new Size(151, 48);
             button1.TabIndex = 9;
@@ -179,7 +179,7 @@
             label7.BorderStyle = BorderStyle.Fixed3D;
             label7.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 204);
             label7.ForeColor = SystemColors.MenuHighlight;
-            label7.Location = new Point(232, 233);
+            label7.Location = new Point(232, 185);
             label7.Name = "label7";
             label7.Size = new Size(200, 46);
             label7.TabIndex = 10;
@@ -191,7 +191,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.AliceBlue;
-            ClientSize = new Size(575, 333);
+            ClientSize = new Size(521, 285);
             Controls.Add(label7);
             Controls.Add(button1);
             Controls.Add(textBox2);
@@ -204,6 +204,7 @@
             Controls.Add(label1);
             Controls.Add(label4);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MinimumSize = new Size(537, 324);
             Name = "Form1";
             Text = "Формула площади треугольника";
             Load += Form1_Load;
